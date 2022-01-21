@@ -1,0 +1,58 @@
+
+一.spark相关问题:
+	1.dataSet和dadaFrame互相转换操作
+	2.广播变量是什么, 作用呢?
+	3.spark常用算子 及持久化算子?
+	4.combineByKey 和reduceByKey
+	5.Rdd转换成DataFrame方式？
+	6.UDF、UDAF、UDTF怎么使用
+	7.窗口函数
+	8.sparkStreaming有状态计算     flink有状态计算 具体都有哪些状态
+	9.sparkStreaming和kafka 整合相关问题
+	10.sprak优化 从几个方面
+
+
+二、flink相关问题
+	1.flink 状态 有哪些
+	2.window窗口
+
+
+三、HDFS相关问题:
+	1.HDFS命令 创建文件、上传并设置大小、 查看、跑一个MR的命令
+
+
+
+四、hive相关问题:
+	1.Hive 创建sql的命令 包含(1.外部表 2.字段格式字符串、集合、map 3.分区 4.带桶) 
+	create table student_b
+	(id int, age int, name string)
+	partitioned by (stat_data string)
+	clustered by (id)
+	sorted by(age) into 2 buckets
+	row format 
+	delimited fields terminated by ',';
+
+	2.Hive UDF使用(java代码、python代码)
+	3.数据倾斜 常见现象、解决方式
+	4.sql行列转换 
+
+五、Hbase基础用法(包含增删改查)
+
+
+六. mysql优化(包含分析方式、一般解决方案)
+
+
+七、大数据ETL工具
+	1.采集工具
+	2.ETL工具 - kettle
+	3.Phoenix
+	4.azkaban
+	
+	
+八.算法了解哪些及简单使用方式
+
+
+九、思维问题
+ 1.海量数据处理 - 10亿个数中找出最大的10000个数(topN问题)
+ 
+ 
